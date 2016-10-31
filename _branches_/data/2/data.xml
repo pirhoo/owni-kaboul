@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes xml:lang=";fr">
+	<node>
+		<title>Murs de beton</title>
+		<description>Saïd Shah vit depuis 7 ans sur une colline qui surplombe le district 15 de Kaboul. Comme plus de deux millions d’habitants de la capitale, il est rentré d’exil il y a 7 ans, avec sa famille. Son salaire de garde pour l’OTAN, 130€ par mois, lui autorise seulement ce terrain non-constructible, sans eau, sans raccord au réseau électrique, sans installations sanitaires.</description>
+		<pics>
+			<pic temp="0" src="kepi2.jpg"></pic>
+			<pic temp="10" src="IMG_4254_1.jpg">Bashir Naderi vend tous types de murets : barrages routiers, protection de bâtiments, chicanes pour postes de garde.</pic>
+			<pic temp="18" src="IMG_4269_1.jpg">Le marché des murs de protection a décollé en 2006, avec la montée en puissance de l’insurrection. Il croit depuis chaque année.</pic>
+			<pic temp="30" src="IMG_4276_1.jpg">Ces murs d'environ deux mètres de long sur trois de haut enserrent chaque ambassade, chaque ministère.</pic>
+			<pic temp="45" src="IMG_4285_1.jpg">Les Occidentaux s’arrêtent le moins possible à Qasaba : une route où les camions filent vite, trop proche des collines.</pic>
+			<pic temp="60" src="IMG_4231_1.jpg">Contrairement à celle de Bagdad, la "zone verte" sécurisée de Kaboul n'est pas homogène. C'est un réseau, une racine qui pousse en centre-ville.</pic>
+			<pic temp="72" src="kepi7.jpg"></pic>
+			<pic temp="86" src="IMG_4454_1.jpg">Dans le quartier Wazir Akbar Khan, les propriétaires de villas ultra-sécurisées n'ont pas pris la peine de faire asphalter leurs rues.</pic>
+			<pic temp="99" src="IMG_4349_1.jpg">Aux heures de pointes traverser la ville d'est en ouest peut prendre plus de trois heures.</pic>
+			<pic temp="110" src="IMG_4447_1.jpg">Sous les bidonvilles des collines, les prix de l'immobilier dans le centre ont doublé en deux ans.</pic>
+			<pic temp="120" src="IMG_4355_1.jpg">Malgré ses murs, Kaboul a connu onze attaques d'importance depuis un an.</pic>
+		</pics>
+	</node>
+</nodes>

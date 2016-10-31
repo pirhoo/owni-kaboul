@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes xml:lang=";fr">
+	<node>
+		<title>DANS LE LABYRINTHE DE KABOUL</title>
+		<description>En Afghanistan, la population de Kaboul a triplé depuis la chute du régime des talibans, en novembre 2001. Plus de 4 millions et demi de personnes s’entassent aujourd’hui dans une ville surchargée. En centre-ville, le gouvernement afghan et ses alliés internationaux s’enferment dans des bunkers chaque jour un peu plus hermétiques. Entre bidonvilles et forteresses, malgré tout, un nouvel Afghanistan s’invente dans la capitale.</description>
+		<pics>
+			<pic temp="0" src="dessin.jpg">Saïd Shah est originaire du Pamir, dans le Nord de l’Afghanistan. Il est venu à Kaboul pour trouver du travail.</pic>
+			<pic temp="8" src="IMG_3934_1.jpg">Saïd Shah est originaire du Pamir, dans le Nord de l’Afghanistan. Il est venu à Kaboul pour trouver du travail.</pic>
+			<pic temp="17" src="IMG_3926_1.jpg">Ces constructions ne sont pas illégales pour la mairie. Elles existent dans une zone de non-droit.</pic>
+			<pic temp="30" src="IMG_4061_1.jpg">Sous le régime des talibans, ces collines étaient désertes. La mairie avait interdit toute construction.</pic>
+			<pic temp="39" src="IMG_4067_1.jpg">La mairie prévoit de fournir de l’eau courante aux habitats des collines. Jusqu’à 18 mètres de hauteur, pour 15 degrés de pente...</pic>
+			<pic temp="50" src="IMG_4148_1.jpg">... Ces rues sont trop hautes pour en bénéficier, comme un tiers des habitations des collines de Kaboul.</pic>
+			<pic temp="60" src="IMG_3957_1.jpg">Certaines quartiers des collines se sont raccordés par eux-mêmes au réseau électrique de la ville. Ici, on s’éclaire au générateur.</pic>
+			<pic temp="70" src="IMG_4083_1.jpg">Cet homme est arrivé il y a quelques mois à Kaboul. Il construit une maison pour sa famille : une femme et cinq enfants.</pic>
+			<pic temp="80" src="IMG_4090_1.jpg">Il a acheté son lopin de terre à un propriétaire informel, sans en informer la mairie.</pic>
+			<pic temp="84" src="dessin1.jpg"></pic>
+			<pic temp="95" src="IMG_4060_1.jpg">Sarajudin se rend chaque jour au carrefour, en contrebas, où les patrons du bâtiment viennent chercher leurs journaliers.</pic>
+			<pic temp="105" src="IMG_4166_1.jpg">Des terres planes doivent être aménagées par la mairie. Mais ces quartiers résidentiels ne seront accessibles qu’aux classes moyennes.</pic>
+			<pic temp="115" src="IMG_3924_1.jpg">La mairie reconnaît que "Les pauvres continueront de squatter"</pic>
+			<pic temp="123" src="IMG_4195_1.jpg">La mosquée, située en bas de pente, est l’un des rares bâtiments du quartier cimenté, mais les fondations sont mauvaises.</pic>
+		</pics>
+	</node>
+</nodes>

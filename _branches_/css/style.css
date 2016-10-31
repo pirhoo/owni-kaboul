@@ -1,0 +1,373 @@
+/********** UTILS **********/
+/*
+	FONT SIZE (em)
+		10px: 62.5%
+		11px: 69% (68.75)
+		12px: 75%
+		16px: 100%
+	
+	PNG > IE6 (info: le chemin de l'image se fait part rapport à la page et non la css)
+		background:none;
+		filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/image.png')
+	
+	INSTRUCTION CONDITIONNELLE
+	<!--[if IE 7]><style type="text/css">#div{}</style><![endif]-->
+	
+	FAMILLES DE POLICES
+	font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family: Georgia, "DejaVu Serif", "Bitstream Vera Serif", Norasi, serif;
+	
+*/
+
+/* RESET
+--------------------------------------------------------------------------------------------------------------------------------------*/
+
+html{font-size: 100%} /* Fix bug d'IE 6-7 */
+
+html, body, form, fieldset, dl, dd{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+p, select, input, caption, label, tr, td, table, textarea{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	text-align:left;
+	line-height:1.5em;
+}
+
+h1, h2, h3, h4, h5, h6, span{
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1em;
+	margin:0;
+}
+
+img, fieldset, table{border:none}
+
+form, p, ul, li, fieldset, input{
+   margin:0;
+   padding:0;
+}
+
+ul, li{list-style:none}
+
+ol li{	list-style:decimal inside}
+
+address{font-style: normal}
+	
+/* CLEAR */
+.clear{
+	clear:both;
+	display:block;
+	height:0px;
+	visibility:hidden;
+}
+
+/* COMMON
+--------------------------------------------------------------------------------------------------------------------------------------*/
+
+body{
+	color:#fff;
+	font-size:75%;	/* 1em = 12px */
+}
+
+a:hover{text-decoration:none}
+.noHover a, a.noHover, .noUnderline a, a.noUnderline{text-decoration:none}
+.noUnderline a:hover, a.noUnderline:hover{text-decoration:underline}
+
+.txtHidden{
+	position:absolute;
+	left:-9999em;
+}
+
+#fond{
+	background: url(../img/map_dessin.jpg) no-repeat right center;
+	height: 600px;
+	position: absolute;
+	width: 800px;
+}
+
+#page{
+	width:780px;
+	height:580px;
+	padding:10px;
+	position:relative;
+}
+
+/********** NAV ***********/
+
+#nav{
+	position:absolute;
+	right:10px;
+	top:170px;
+	z-index:20;
+}
+
+#nav li{
+	margin-bottom:15px;
+	z-index: 48;
+}
+
+#nav a{
+	display:block;
+	width:80px;
+	height:80px;
+	outline:0;
+	z-index: 49;
+}
+
+#nav .ico1{background-image:url(../img/nav_ico1.png)}
+#nav .active .ico1, #nav .ico1:hover{background-image:url(../img/nav_ico1_hover.png)}
+#nav .ico2{background-image:url(../img/nav_ico2.png)}
+#nav .active .ico2, #nav .ico2:hover{background-image:url(../img/nav_ico2_hover.png)}
+#nav .ico3{background-image:url(../img/nav_ico3.png); display:none;}
+#nav .active .ico3, #nav .ico3:hover{background-image:url(../img/nav_ico3_hover.png)}
+
+#nav-slide{
+	background: url(../img/bg_titre.png);
+	height: 80px;
+	position: absolute;
+	right: 0px;
+	width: 0px;
+	z-index: 10;
+}
+#nav-slide p{
+	padding: 28px 0 0 30px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+/********** SLIDESHOW **********/
+#slideshow{
+	display: none;
+}
+#slideshow #nextBtn,#prevBtn{
+	display: none;
+}
+#top-slider{
+	margin: 10px 10px 10px 100px;
+	width: 600px;
+}
+#top-slider h2{
+	font-size:1.33em;
+	text-transform:uppercase;
+}
+#slider{
+	margin: 0 auto;
+	text-align: center;
+}
+#slider ul, #slider li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#slider, #slider li{ 
+	width:600px;
+	height:400px;
+	overflow:hidden; 
+}
+#slider #delay{
+	display:none;
+}
+
+/********** VIDEO **********/
+#overlay{
+	background: url(../img/bg_boxinfos.png);
+	display: none;
+	height: 600px;
+	position: absolute;
+	width: 800px;
+	z-index: 50;
+}
+#close{
+	background: url(../img/close.png) no-repeat right center;
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+	height: 17px;
+	margin: 5px;
+	position: absolute;
+	right: 0px;
+	text-align: left;
+	width: 17px;
+}
+
+
+/********** VIDEO **********/
+#player{
+	display: none;
+	text-align: center;
+}
+
+#audio{
+	display:none;
+}
+
+#facyAudio{
+	width:642px;
+}
+
+#facyAudio .header{
+	width:100%;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+
+#facyAudio .header .desc{
+	width:305px;
+	float:left;
+	margin-right:10px;
+}
+
+#facyAudio .header h2{
+	text-transform:uppercase;
+	font-size:1.33em;
+}
+
+/* DESSIN
+--------------------------------------------------------------------------------------------------------------------------------------*/
+
+#titre{
+	font-size:1.67em;
+	padding:20px 25px 0;
+	height:61px;
+	margin:0 auto;
+	line-height:1.17em;
+	text-transform:uppercase;
+	background:url(../img/bg_titre.png) left top no-repeat;
+}
+
+#titre small{
+	font-size:0.75em;
+	display:block;
+}
+
+#content{
+	position:relative;
+	height:425px;
+}
+
+/********** BOX INFOS ***********/
+
+#boxInfos{
+	display: none;
+	position:absolute;
+	background:url(../img/bg_boxinfos.png) left top repeat;
+}
+
+#boxInfos .content{
+	position:relative;
+	line-height:1.33em;
+	padding:15px 20px;
+	width:155px;
+}
+
+#boxInfos .arr{
+	width:10px;
+	height:13px;
+	position:absolute;
+	right:-10px;
+	top:100px;
+	background:url(../img/ico_arr_boxinfos.png) left top no-repeat;
+}
+
+#boxInfos h2{
+	line-height:1.33em;
+	font-size:1.09em;
+	text-transform:uppercase;
+	font-weight:normal;
+	letter-spacing:-0.04em;
+}
+
+#content .marker{
+	display:block;
+	width:36px;
+	height:36px;
+	outline:0;
+	position:absolute;
+	background:url(../img/marker.png) left top no-repeat;
+}
+
+#content .marker:hover, #content .markerActive{
+	background-image:url(../img/marker_hover.png);
+}
+
+#content .marker1{ top:130px; left:95px; }
+#content .marker2{ top:70px; left:200px; }
+#content .marker3{ top:100px; left:575px; }
+#content .marker4{ top:175px; left:635px; }
+#content .marker5{ top:370px; left:355px; }
+
+/* FOOTER
+--------------------------------------------------------------------------------------------------------------------------------------*/
+
+#footer{
+	height:70px;
+	padding-left:197px;
+	overflow:hidden;
+	position:relative;
+	background:url(../img/footer.png) left top no-repeat;
+}
+
+#footer .btnPlay{
+	width:49px;
+	left:11px;
+	top:11px;
+	height:49px;
+	display:block;
+	outline:0;
+	position:absolute;
+	background:url(../img/btn_play.png) left top no-repeat;
+}
+
+#footer .btnSound{
+	width:49px;
+	right:11px;
+	top:11px;
+	height:49px;
+	display:block;
+	outline:0;
+	position:absolute;
+	background:url(../img/btn_son_on.png) left top no-repeat;
+}
+
+#footer .btnSonOff{background-image:url(../img/btn_son_off.png)}
+#footer .btnOff{background-position:left top}
+#footer .btnOn{background-position:left bottom}
+
+#footer .social{
+	width:245px;
+	float:left;
+	padding-top:20px;
+}
+
+#footer .social span{
+	font-size:1.25em;
+	text-transform:uppercase;
+	margin-right:10px;
+	color:#adadad;
+}
+
+#footer .social img{
+	vertical-align:middle;
+}
+
+#footer .social a{
+	margin-right:10px;
+}
+
+#footer .legende{
+	font-size:1.17em;
+	float:left;
+	padding-top:20px;
+	width:240px;
+}
+#footer .social #fblikehome{
+	float:right;
+	width:65px;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes xml:lang=";fr">
+	<node>
+		<title>Contraception</title>
+		<description>Mahmouda fait du porte à porte dans les collines de Kaboul. Pendant que les maris sont au travail, elle distribue des préservatifs et des pilules contraceptives. En Afghanistan, les femmes ont en moyenne 6 enfants. Le taux de mortalité des mères à l’accouchement y est le deuxième au monde, après la Sierra Leone. Mahmouda sent les mentalités évoluer, lentement.</description>
+		<pics>
+			<pic temp="0" src="IMG_3998.jpg">Légende 3</pic>
+			<pic temp="10" src="IMG_3999.jpg">Légende 3</pic>
+			<pic temp="20" src="IMG_ong.jpg">Légende 3</pic>
+			<pic temp="30" src="IMG_4009.jpg">Légende 3</pic>
+			<pic temp="40" src="IMG_4014.jpg">Légende 3</pic>
+			<pic temp="60" src="IMG_4018.jpg">Légende 3</pic>
+			<pic temp="70" src="IMG_4020.jpg">Légende 3</pic>
+			<pic temp="80" src="IMG_4022.jpg">Légende 3</pic>
+		</pics>
+	</node>
+</nodes>
